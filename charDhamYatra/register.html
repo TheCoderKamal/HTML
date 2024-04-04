@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      background-image: url('images/soothingbg.jpg'); /* Replace with your soothing background image URL */
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .welcome-message {
+      font-size: 32px;
+      color: #333;
+      animation: slide-in 1s ease-in-out;
+      margin-bottom: 20px;
+    }
+    @keyframes slide-in {
+      0% {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    .logout-btn {
+      padding: 10px 20px;
+      background-color: greenyellow;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .logout-btn:hover {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome-message">
+    <p style=" color: green;">	&#128512 Welcome! You have successfully logged in. 	&#128512</p>
+    <button class="logout-btn"><b><big><a href="CharDham.html">Home</a></big></b></button>
+  </div>
+</body>
+</html>

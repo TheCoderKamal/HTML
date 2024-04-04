@@ -1,0 +1,95 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body bgcolor="#5628c9">
+    <center>
+        <h1 style="color: aliceblue;">: Registration Form : </h1>
+    </center>
+    <form action="Submit.html" style="color: white;">
+        <fieldset style=" width: 80%; float: left; margin-block: 20px;">
+            <legend>
+                <font size="5">Info</font>
+            </legend>
+            <label>Name : </label>
+            <input type="text" placeholder="Enter name" style=" border-radius: 5px; border: none; text-align: center;" required><br><br>
+
+            <label><sup style="font-size: 16px;">Address : </sup></label>
+            <textarea cols="20" rows="1" placeholder="Enter Address" style=" border-radius: 5px; border: none; text-align: center;" required></textarea><br><br>
+            
+            <label>Date of Birth : </label>
+            <input type="date" style=" border-radius: 5px; border: none; text-align: center;" required><br><br>
+
+            <label>Office Time : </label>
+            <input type="time" style=" border-radius: 5px; border: none; text-align: center;" required><br><br>
+
+            <label>Gender : </label>
+            <input type="radio" name="Gender" required> Male
+            <input type="radio" name="Gender" required> Female
+
+        </fieldset>
+
+       
+
+        <fieldset style=" width: 80%; float: right;  margin-block: 20px;">
+            <legend>
+                <font size="5">Contact</font>
+            </legend>
+            <label>Mobile Number : </label>
+            <input type="number" placeholder="Enter Mobile Number" style=" border-radius: 5px; border: none; text-align: center;" required><br><br>
+
+            <label>E-mail : </label>
+            <input type="email" placeholder="Enter E-mail" style=" border-radius: 5px; border: none; text-align: center;" required><br><br>
+
+            <label>Password : </label>
+            <input type="password" placeholder="Enter Password" style=" border-radius: 5px; border: none; text-align: center;" required>
+        </fieldset>
+
+        
+
+        <fieldset style=" width: 80%; float: left; margin-block: 20px;">
+            <legend>
+                <font size="5">Fevorite things / Other</font>
+            </legend>
+            <label>Fevorite color : </label>
+            <input type="color" style=" border-radius: 5px; border: none; text-align: center;"><br><br>
+
+            <label>Skill level : </label>
+            <input type="range"><br><br>
+
+            <label>Upload your degree : </label>
+            <input type="file" style=" border-radius: 5px; border: none; text-align: center;" required><br><br>
+
+            <label>Course : </label>
+            <select style="border-radius: 5px; border: none; text-align: center;">
+                <option disabled>--Choose option--</option>
+                <option>Full Stack</option>
+                <option>Flutter</option>
+                <option>UI / UX Designer</option>
+            </select>
+        </fieldset>
+
+
+
+        <fieldset style=" width: 80%; float: right; margin-block: 20px;">
+            <legend>
+                <font size="5">Submit</font>
+            </legend>
+            
+            <input type="checkbox" required style="float: left;"> Terms & Conditions Accepted. <br><br><br><br>
+
+            <button type="submit" style="border-radius: 5px; border: none; text-align: center;">Submit</button> &nbsp;&nbsp;&nbsp;
+            <button type="reset" style="border-radius: 5px; border: none; text-align: center;">Reset</button>
+        </fieldset>
+        
+    </form>
+
+
+</body>
+
+</html>
